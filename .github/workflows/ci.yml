@@ -5,6 +5,17 @@ on:
   pull_request:
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build -w collectorService
+      - run: npm run build -w writerService
   test:
     runs-on: ubuntu-latest
     env:
@@ -22,3 +33,14 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm test
+  coverage:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run test:cov
