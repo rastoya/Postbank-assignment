@@ -1,1 +1,3 @@
 node_modules
+collectorService/coverage
+writerService/coverage
