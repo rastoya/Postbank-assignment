@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1768321556647" clover="3.2.0">
+  <project timestamp="1768321556647" name="All files">
+    <metrics statements="32" coveredstatements="30" conditionals="12" coveredconditionals="6" methods="3" coveredmethods="2" elements="47" coveredelements="38" complexity="0" loc="32" ncloc="32" packages="1" files="4" classes="4"/>
+    <file name="app.ts" path="/Volumes/External SSD/Eurobank/collectorService/src/app.ts">
+      <metrics statements="9" coveredstatements="7" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="9" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="11" count="0" type="stmt"/>
+    </file>
+    <file name="controller.ts" path="/Volumes/External SSD/Eurobank/collectorService/src/controller.ts">
+      <metrics statements="12" coveredstatements="12" conditionals="8" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="8" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="9" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="10" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="12" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+    </file>
+    <file name="routes.ts" path="/Volumes/External SSD/Eurobank/collectorService/src/routes.ts">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+    </file>
+    <file name="service.ts" path="/Volumes/External SSD/Eurobank/collectorService/src/service.ts">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

@@ -1,0 +1,28 @@
+{
+  "name": "writerService",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/app.js",
+    "test": "jest",
+    "test:cov": "jest --coverage"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20.11.30",
+    "@types/supertest": "^6.0.3",
+    "jest": "^30.2.0",
+    "supertest": "^7.2.2",
+    "ts-jest": "^29.4.6",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}

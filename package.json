@@ -1,0 +1,19 @@
+{
+  "name": "timelog-homework",
+  "private": true,
+  "workspaces": [
+    "collectorService",
+    "writerService"
+  ],
+  "scripts": {
+    "db:schema": "mysql -u root -h 127.0.0.1 -P 3306 < db/schema.sql",
+    "db:seed": "mysql -u root -h 127.0.0.1 -P 3306 < db/seeds/seed.sql",
+    "dev:services": "concurrently \"cd collectorService && npm run dev\" \"cd writerService && npm run dev\"",
+    "up": "npm run db:schema && npm run db:seed && npm run dev:services",
+    "test": "npm test -w collectorService && npm test -w writerService",
+    "test:cov": "npm run test:cov -w collectorService && npm run test:cov -w writerService"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
