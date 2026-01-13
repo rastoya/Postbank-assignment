@@ -35,7 +35,7 @@ Simple time tracking system with:
 
 1) Install dependencies: npm install
    
-2) Optional one-liner to bring everything up: npm run up
+2) Run one-liner to bring everything up: npm run up
 
 ### Run from the repo root (recommended)
 
